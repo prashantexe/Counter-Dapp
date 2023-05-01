@@ -1,0 +1,29 @@
+{
+  "extensions": [
+    {
+      "metadata": {
+        "name": "MyContract",
+        "metadataURI": "ipfs://Qma3xMjRGQ6w1d3iF3XSvDzsbZVbBy33X8QyLkVeWpJDHF",
+        "implementation": "0x0000000000000000000000000000000000000000"
+      },
+      "functions": [
+        {
+          "functionSelector": "0xa87d942c",
+          "functionSignature": "getCount()"
+        },
+        {
+          "functionSelector": "0x5b34b966",
+          "functionSignature": "incrementCounter()"
+        }
+      ]
+    }
+  ],
+  "extensionDeployArgs": [
+    {
+      "name": "MyContract",
+      "amount": 0,
+      "salt": "0xee36572fffdc522882601c726a4de565e3414b85d4e18fb1b8e472cbe0f3f216",
+      "bytecode": "60806040526000805534801561001457600080fd5b5060c6806100236000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80635b34b966146037578063a87d942c14603f575b600080fd5b603d6054565b005b60005460405190815260200160405180910390f35b6000805490806061836068565b9190505550565b6000600019821415608957634e487b7160e01b600052601160045260246000fd5b506001019056fea2646970667358221220ae055327f9edb5698442f8988de7433654a9819bf9907ffa35530bfb0d9c855664736f6c63430008090033"
+    }
+  ]
+}
