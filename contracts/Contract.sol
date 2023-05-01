@@ -9,5 +9,6 @@ contract MyContract {
     }
     function incrementCounter() public{
         counter++;
+        //counterthe values
     }
 }
